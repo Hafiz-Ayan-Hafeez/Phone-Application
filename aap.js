@@ -209,7 +209,7 @@ function addToCart(index) {
     counting.innerHTML = "0" + num;
 
     if (num > 9) {
-        counting.innerHTML = num++;
+        counting.innerHTML = num;
     }
 }
 
